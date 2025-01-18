@@ -1,0 +1,1 @@
+This repository demonstrates a common error encountered when working with Firebase Cloud Functions and asynchronous operations. The `bug.js` file showcases the erroneous code, where Firestore data is accessed before an external API call completes.  The `bugSolution.js` provides the corrected implementation using Promises to ensure data consistency.
